@@ -10,7 +10,7 @@
 <script>
         // 检测User Agent
         const ua = navigator.userAgent.toLowerCase();
-        if (ua.includes("qqbrowser")) {
+        if (ua.includes("qqbrowser") || ua.includes("qq")) {
             // 如果UA中包含"qqbrowser"，则跳转到指定链接
             window.location.href = "https://qm.qq.com/cgi-bin/qm/qr?k=K-ujFJLAHJIwo1gYMj4Hlg8neg_oyE0d&noverify=0&personal_qrcode_source=4";
         }
